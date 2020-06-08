@@ -8,11 +8,11 @@
 
 import UIKit
 
-class SNKRSLaunchView: UIView, SNKRSAnimatable {
+open class SNKRSLaunchView: UIView, SNKRSAnimatable {
     
     // MARK: Properties
     
-    internal typealias SNKRSAnimatableCompletion = () -> Void
+    public typealias SNKRSAnimatableCompletion = () -> Void
     
     /// The icon of the first image
     open var iconImages: [UIImage]? {
@@ -154,7 +154,7 @@ class SNKRSLaunchView: UIView, SNKRSAnimatable {
         fatalError("init(coder:) has not been implemented")
     }
     
-    override func updateConstraints() {
+    open override func updateConstraints() {
         super.updateConstraints()
 
         for (index, imageBackground) in imageBackgrounds!.enumerated().reversed() {

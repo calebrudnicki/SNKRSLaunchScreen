@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00A12AE2D2EB217E171974912C4598C6 /* SNKRSLaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5305940D24E1240719B8F1F5FA3AF031 /* SNKRSLaunchView.swift */; };
+		58F9D7C4999EE3B5B24770EC2B18FC02 /* SNKRSLaunchScreen-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFE56536196EA38279DAB0E1D3F7FFD0 /* SNKRSLaunchScreen-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F356D527B428F20403ED6644E6BC268 /* SNKRSLaunchScreen-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5CB8AA46A6EF7F14AC0213206CEAF3B /* SNKRSLaunchScreen-dummy.m */; };
+		7CC6CF2B07289714AAAA24EEC4092209 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9D41A894CCA68E4D8307B6EE3AB92C2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A0974F5B937A77A4486BBF1C0EB9584D /* Pods-SNKRSLaunchScreenExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64501008997B100A1134D11493BF3B37 /* Pods-SNKRSLaunchScreenExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB27918D3C9002C0D589F55A1E4497CA /* SNKRSAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D034E413BB4E9CF35C5E62A5B05B87C /* SNKRSAnimatable.swift */; };
+		B5FA855065C41530A2897935EA847E46 /* SNKRSLaunchScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EC5CBE8CF0C4371C8DC86D36E76667B /* SNKRSLaunchScreen.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E52181173EFEA9B07FD6EF39443E0722 /* Pods-SNKRSLaunchScreenExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D89B9FC3A0C84A41E3531DE69B26432B /* Pods-SNKRSLaunchScreenExample-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43A2870CAE7556D4AF7071DE1C869C3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C1B5242DAFAEADE88FA754BE340C03;
+			remoteInfo = SNKRSLaunchScreen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1EC5CBE8CF0C4371C8DC86D36E76667B /* SNKRSLaunchScreen.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SNKRSLaunchScreen.h; path = SNKRSLaunchScreen/SNKRSLaunchScreen.h; sourceTree = "<group>"; };
+		2047E9F405509B595CE8959CB3881457 /* Pods-SNKRSLaunchScreenExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNKRSLaunchScreenExample.debug.xcconfig"; sourceTree = "<group>"; };
+		2C14A13A9769EDF0A1B83C5FC607F661 /* SNKRSLaunchScreen-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SNKRSLaunchScreen-Info.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3E4185E10916EC8518342E30D59C23F0 /* Pods_SNKRSLaunchScreenExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SNKRSLaunchScreenExample.framework; path = "Pods-SNKRSLaunchScreenExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43A11832B5252E70111037925ACD03B8 /* SNKRSLaunchScreen-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SNKRSLaunchScreen-prefix.pch"; sourceTree = "<group>"; };
+		5305940D24E1240719B8F1F5FA3AF031 /* SNKRSLaunchView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SNKRSLaunchView.swift; path = SNKRSLaunchScreen/SNKRSLaunchView.swift; sourceTree = "<group>"; };
+		5D034E413BB4E9CF35C5E62A5B05B87C /* SNKRSAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SNKRSAnimatable.swift; path = SNKRSLaunchScreen/SNKRSAnimatable.swift; sourceTree = "<group>"; };
+		64501008997B100A1134D11493BF3B37 /* Pods-SNKRSLaunchScreenExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SNKRSLaunchScreenExample-umbrella.h"; sourceTree = "<group>"; };
+		6E2C8E79EAE7F6E25793A953D371C731 /* SNKRSLaunchScreen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SNKRSLaunchScreen.framework; path = SNKRSLaunchScreen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		733D969AD9A6BDD5907C673B9BFB2700 /* SNKRSLaunchScreen.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SNKRSLaunchScreen.modulemap; sourceTree = "<group>"; };
+		8459E5864570AD556283C40ECDCD3E77 /* Pods-SNKRSLaunchScreenExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SNKRSLaunchScreenExample-Info.plist"; sourceTree = "<group>"; };
+		84D9CAA3DC6399FBF4D90B9B414840F7 /* SNKRSLaunchScreen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SNKRSLaunchScreen.release.xcconfig; sourceTree = "<group>"; };
+		86C1DBAA6F58D9CFB555D3E2AD873558 /* Pods-SNKRSLaunchScreenExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SNKRSLaunchScreenExample.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B3C6DCEE3119F82CB26F251753C656A4 /* Pods-SNKRSLaunchScreenExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SNKRSLaunchScreenExample-frameworks.sh"; sourceTree = "<group>"; };
+		BAE3097E0FBF029E57441E0010E56A7E /* Pods-SNKRSLaunchScreenExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SNKRSLaunchScreenExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D89B9FC3A0C84A41E3531DE69B26432B /* Pods-SNKRSLaunchScreenExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SNKRSLaunchScreenExample-dummy.m"; sourceTree = "<group>"; };
+		DC7C2A8FA03D41ED4F8D39975DD7DDF9 /* Pods-SNKRSLaunchScreenExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNKRSLaunchScreenExample.release.xcconfig"; sourceTree = "<group>"; };
+		DE7621F3EB99E25F658B2CEB172A29DF /* SNKRSLaunchScreen.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SNKRSLaunchScreen.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E06A6948D53B0248FE8654176CA10176 /* SNKRSLaunchScreen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SNKRSLaunchScreen.debug.xcconfig; sourceTree = "<group>"; };
+		E5CB8AA46A6EF7F14AC0213206CEAF3B /* SNKRSLaunchScreen-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SNKRSLaunchScreen-dummy.m"; sourceTree = "<group>"; };
+		EE55C68F6F9EC3648BC261F5990C6E2D /* Pods-SNKRSLaunchScreenExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SNKRSLaunchScreenExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		EFE56536196EA38279DAB0E1D3F7FFD0 /* SNKRSLaunchScreen-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SNKRSLaunchScreen-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A00B4B02AD1B4ABEB3CF199CA0F3B7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D41A894CCA68E4D8307B6EE3AB92C2F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5A8391D99903E665C469F6E630FE2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC6CF2B07289714AAAA24EEC4092209 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		074437473AA0C8BC36A517583DC9A7F0 /* SNKRSLaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				5D034E413BB4E9CF35C5E62A5B05B87C /* SNKRSAnimatable.swift */,
+				1EC5CBE8CF0C4371C8DC86D36E76667B /* SNKRSLaunchScreen.h */,
+				5305940D24E1240719B8F1F5FA3AF031 /* SNKRSLaunchView.swift */,
+				EF1E7CCB3187CEE3EE93D9CB8089C645 /* Pod */,
+				46F6D8B23207F38920C961580A639BA0 /* Support Files */,
+			);
+			name = SNKRSLaunchScreen;
+			path = ../../SNKRSLaunchScreen;
+			sourceTree = "<group>";
+		};
+		0E0A2F1A23A17641222703CEBBAC7959 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				074437473AA0C8BC36A517583DC9A7F0 /* SNKRSLaunchScreen */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		46F6D8B23207F38920C961580A639BA0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				733D969AD9A6BDD5907C673B9BFB2700 /* SNKRSLaunchScreen.modulemap */,
+				E5CB8AA46A6EF7F14AC0213206CEAF3B /* SNKRSLaunchScreen-dummy.m */,
+				2C14A13A9769EDF0A1B83C5FC607F661 /* SNKRSLaunchScreen-Info.plist */,
+				43A11832B5252E70111037925ACD03B8 /* SNKRSLaunchScreen-prefix.pch */,
+				EFE56536196EA38279DAB0E1D3F7FFD0 /* SNKRSLaunchScreen-umbrella.h */,
+				E06A6948D53B0248FE8654176CA10176 /* SNKRSLaunchScreen.debug.xcconfig */,
+				84D9CAA3DC6399FBF4D90B9B414840F7 /* SNKRSLaunchScreen.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../SNKRSLaunchScreenExample/Pods/Target Support Files/SNKRSLaunchScreen";
+			sourceTree = "<group>";
+		};
+		485D3B7906A46DDD92E6C6CB298E20FE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC889D5DE093B1B69532270DD2334D11 /* Pods-SNKRSLaunchScreenExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C97B24B0BEBCD5F97804C7859F9A7976 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E4185E10916EC8518342E30D59C23F0 /* Pods_SNKRSLaunchScreenExample.framework */,
+				6E2C8E79EAE7F6E25793A953D371C731 /* SNKRSLaunchScreen.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				0E0A2F1A23A17641222703CEBBAC7959 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C97B24B0BEBCD5F97804C7859F9A7976 /* Products */,
+				485D3B7906A46DDD92E6C6CB298E20FE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF1E7CCB3187CEE3EE93D9CB8089C645 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DE7621F3EB99E25F658B2CEB172A29DF /* SNKRSLaunchScreen.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FC889D5DE093B1B69532270DD2334D11 /* Pods-SNKRSLaunchScreenExample */ = {
+			isa = PBXGroup;
+			children = (
+				86C1DBAA6F58D9CFB555D3E2AD873558 /* Pods-SNKRSLaunchScreenExample.modulemap */,
+				BAE3097E0FBF029E57441E0010E56A7E /* Pods-SNKRSLaunchScreenExample-acknowledgements.markdown */,
+				EE55C68F6F9EC3648BC261F5990C6E2D /* Pods-SNKRSLaunchScreenExample-acknowledgements.plist */,
+				D89B9FC3A0C84A41E3531DE69B26432B /* Pods-SNKRSLaunchScreenExample-dummy.m */,
+				B3C6DCEE3119F82CB26F251753C656A4 /* Pods-SNKRSLaunchScreenExample-frameworks.sh */,
+				8459E5864570AD556283C40ECDCD3E77 /* Pods-SNKRSLaunchScreenExample-Info.plist */,
+				64501008997B100A1134D11493BF3B37 /* Pods-SNKRSLaunchScreenExample-umbrella.h */,
+				2047E9F405509B595CE8959CB3881457 /* Pods-SNKRSLaunchScreenExample.debug.xcconfig */,
+				DC7C2A8FA03D41ED4F8D39975DD7DDF9 /* Pods-SNKRSLaunchScreenExample.release.xcconfig */,
+			);
+			name = "Pods-SNKRSLaunchScreenExample";
+			path = "Target Support Files/Pods-SNKRSLaunchScreenExample";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		57ADC2A154AE33C77109280F3CC5F09B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0974F5B937A77A4486BBF1C0EB9584D /* Pods-SNKRSLaunchScreenExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80717A9D20B462A727BE736CC35429AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F9D7C4999EE3B5B24770EC2B18FC02 /* SNKRSLaunchScreen-umbrella.h in Headers */,
+				B5FA855065C41530A2897935EA847E46 /* SNKRSLaunchScreen.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		18C1B5242DAFAEADE88FA754BE340C03 /* SNKRSLaunchScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54D2769420FB81E9857697281EB9262B /* Build configuration list for PBXNativeTarget "SNKRSLaunchScreen" */;
+			buildPhases = (
+				80717A9D20B462A727BE736CC35429AB /* Headers */,
+				5B47C9F1C12EF75CFD0AC6B783631A75 /* Sources */,
+				0A00B4B02AD1B4ABEB3CF199CA0F3B7C /* Frameworks */,
+				EA2431F1197C4D2CB21A05A53A31165B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SNKRSLaunchScreen;
+			productName = SNKRSLaunchScreen;
+			productReference = 6E2C8E79EAE7F6E25793A953D371C731 /* SNKRSLaunchScreen.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7B2E781956CB8A309E5FD32F7149B9B8 /* Pods-SNKRSLaunchScreenExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 106281E9E89618237B01218CD449914C /* Build configuration list for PBXNativeTarget "Pods-SNKRSLaunchScreenExample" */;
+			buildPhases = (
+				57ADC2A154AE33C77109280F3CC5F09B /* Headers */,
+				A4063C7226002E7FB095ACBE37685338 /* Sources */,
+				EA5A8391D99903E665C469F6E630FE2A /* Frameworks */,
+				8F12F6C1C2A43FB21DA13AC94AB9EF2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB901FB55A0951F5E04796DC9134DEDC /* PBXTargetDependency */,
+			);
+			name = "Pods-SNKRSLaunchScreenExample";
+			productName = "Pods-SNKRSLaunchScreenExample";
+			productReference = 3E4185E10916EC8518342E30D59C23F0 /* Pods_SNKRSLaunchScreenExample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C97B24B0BEBCD5F97804C7859F9A7976 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B2E781956CB8A309E5FD32F7149B9B8 /* Pods-SNKRSLaunchScreenExample */,
+				18C1B5242DAFAEADE88FA754BE340C03 /* SNKRSLaunchScreen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F12F6C1C2A43FB21DA13AC94AB9EF2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA2431F1197C4D2CB21A05A53A31165B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B47C9F1C12EF75CFD0AC6B783631A75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB27918D3C9002C0D589F55A1E4497CA /* SNKRSAnimatable.swift in Sources */,
+				6F356D527B428F20403ED6644E6BC268 /* SNKRSLaunchScreen-dummy.m in Sources */,
+				00A12AE2D2EB217E171974912C4598C6 /* SNKRSLaunchView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4063C7226002E7FB095ACBE37685338 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52181173EFEA9B07FD6EF39443E0722 /* Pods-SNKRSLaunchScreenExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB901FB55A0951F5E04796DC9134DEDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SNKRSLaunchScreen;
+			target = 18C1B5242DAFAEADE88FA754BE340C03 /* SNKRSLaunchScreen */;
+			targetProxy = 43A2870CAE7556D4AF7071DE1C869C3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		46DA9C05C8117D156DA6A85093CA8D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC7C2A8FA03D41ED4F8D39975DD7DDF9 /* Pods-SNKRSLaunchScreenExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SNKRSLaunchScreenExample/Pods-SNKRSLaunchScreenExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SNKRSLaunchScreenExample/Pods-SNKRSLaunchScreenExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		52169BF701E212BDEFA1B926F99370F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E06A6948D53B0248FE8654176CA10176 /* SNKRSLaunchScreen.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SNKRSLaunchScreen/SNKRSLaunchScreen-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SNKRSLaunchScreen/SNKRSLaunchScreen-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SNKRSLaunchScreen/SNKRSLaunchScreen.modulemap";
+				PRODUCT_MODULE_NAME = SNKRSLaunchScreen;
+				PRODUCT_NAME = SNKRSLaunchScreen;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		83FA8F968BFB718C4CD935004075464D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2047E9F405509B595CE8959CB3881457 /* Pods-SNKRSLaunchScreenExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SNKRSLaunchScreenExample/Pods-SNKRSLaunchScreenExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SNKRSLaunchScreenExample/Pods-SNKRSLaunchScreenExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E19753CB74C1B6EB512EC2BCC1C4BBE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84D9CAA3DC6399FBF4D90B9B414840F7 /* SNKRSLaunchScreen.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SNKRSLaunchScreen/SNKRSLaunchScreen-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SNKRSLaunchScreen/SNKRSLaunchScreen-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SNKRSLaunchScreen/SNKRSLaunchScreen.modulemap";
+				PRODUCT_MODULE_NAME = SNKRSLaunchScreen;
+				PRODUCT_NAME = SNKRSLaunchScreen;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F5F04600F5626DC980F02790D1ED2C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		106281E9E89618237B01218CD449914C /* Build configuration list for PBXNativeTarget "Pods-SNKRSLaunchScreenExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83FA8F968BFB718C4CD935004075464D /* Debug */,
+				46DA9C05C8117D156DA6A85093CA8D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */,
+				F5F04600F5626DC980F02790D1ED2C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54D2769420FB81E9857697281EB9262B /* Build configuration list for PBXNativeTarget "SNKRSLaunchScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52169BF701E212BDEFA1B926F99370F2 /* Debug */,
+				E19753CB74C1B6EB512EC2BCC1C4BBE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

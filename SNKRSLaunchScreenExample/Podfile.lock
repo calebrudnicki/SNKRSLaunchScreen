@@ -1,0 +1,16 @@
+PODS:
+  - SNKRSLaunchScreen (1.0.0)
+
+DEPENDENCIES:
+  - SNKRSLaunchScreen (from `../SNKRSLaunchScreen`)
+
+EXTERNAL SOURCES:
+  SNKRSLaunchScreen:
+    :path: "../SNKRSLaunchScreen"
+
+SPEC CHECKSUMS:
+  SNKRSLaunchScreen: b7284400df8120288c73b326348aa860f6924dd2
+
+PODFILE CHECKSUM: d6adb9df91a8499e3160aed77f31fcdabd9218a2
+
+COCOAPODS: 1.9.1

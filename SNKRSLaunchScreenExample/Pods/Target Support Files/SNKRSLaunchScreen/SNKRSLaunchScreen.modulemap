@@ -1,0 +1,6 @@
+framework module SNKRSLaunchScreen {
+  umbrella header "SNKRSLaunchScreen-umbrella.h"
+
+  export *
+  module * { export * }
+}
